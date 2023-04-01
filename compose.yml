@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  sample:
+    build:
+      context: .
+      dockerfile: ./platforms/Dockerfile
+    tty: true
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./services/sample:/app
+    command: yarn dev
+
