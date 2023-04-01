@@ -1,5 +1,7 @@
 # react-tailwindcss-sample
 
+![](https://img.shields.io/github/license/penqen/react-tailwindcss-sample)
+
 ## 動作確認
 
 ```sh
